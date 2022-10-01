@@ -1,0 +1,5 @@
+- execute docker-compose up -d
+- psql -d application_sec -h localhost --u postgres (password is changeme)
+- insert into students values (134, 'toto', 'toto');
+- you can verify the resutls: select * from students;
+- Run HQLInjectionMain or SQLInjectionMain

@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    beans:
+      enabled: true
+  endpoint:
+    env:
+      post:
+        enabled: true
+    restart:
+      enabled: true
